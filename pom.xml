@@ -6,14 +6,14 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.4</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath />
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.sasi.test</groupId>
-	<artifactId>Department</artifactId>
+	<groupId>com.java.instructor</groupId>
+	<artifactId>spring.microservice.departments</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>department-service</name>
-	<description>department-service</description>
+	<name>spring.microservice.departments</name>
+	<description>spring microservice departments demo</description>
 	<properties>
 		<spring-cloud.version>2021.0.4</spring-cloud.version>
 	</properties>
@@ -26,10 +26,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<!-- <dependency> <groupId>mysql</groupId> <artifactId>mysql-connector-java</artifactId> 
-			<scope>runtime</scope> </dependency> -->
-
-		<dependency>
+			<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
